@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechSmart Image Importer</title>
+</head>
+<body>
+
+    <!-- File Upload -->
+    <div id="file_upload_rect"><input type="file" id="real-file" hidden="hidden" accept=".png,.jpg,.jpeg,.webp"></div>
+    <button type="button" id="custom_button">CHOOSE A FILE</button>
+    <span id="custom_text">No file chosen, yet.</span>
+
+    <!-- Image Information -->
+    <div id="image_information"></div>
+    <span id="file_type">File Type: </span>
+    <span id="size">Size: </span>
+
+    <!-- Canvas -->
+    <div id="image_preview"></div>
+    <canvas id="canvas"></canvas>
+
+    <!-- Copy/Paste Image Color Data Field -->
+    <textarea style="resize: none;" id="color_data_field" placeholder="Image Color Data..."></textarea>
+
+    <script src="app.js"></script>
+</body>
+</html>
