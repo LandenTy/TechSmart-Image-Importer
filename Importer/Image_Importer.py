@@ -13,6 +13,7 @@ clock = pygame.time.Clock()
 
 # Color List
 img1_data = []
+
 #Drawing
 def draw(surface,colors):
     for j in range(len(colors)):
