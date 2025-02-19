@@ -33,9 +33,3 @@ The **Importer** is the back-end component written in Python. Once the image is 
 
 - Written in Python to handle color data processing.
 - Allows seamless integration with TechSmart.
-
-## Installation
-
-1. Clone the repository:
-  ```bash
-  cd TechSmart-Image-Importer
